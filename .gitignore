@@ -1,0 +1,19 @@
+# Terraform Files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfplan
+.terraformrc
+terraform.rc
+
+# Credentials and Secrets
+
+*.p12
+credentials.json
+service_account.json
+
+/manifests/*~ # Backup files
+
+terraform.tfvars
+local.tfvars
+*.auto.tfvars
